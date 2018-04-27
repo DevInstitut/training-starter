@@ -1,17 +1,17 @@
 const CONFIG = {
 
     // Titre
-    title: "Formation W",
+    title: "Formation Spring Boot",
 
     // Nom de l'organisation
     repoUser: "DevInstitut",
 
     // Nom du dépôt dans l'organisation Github
-    repoName: "formation-w",
+    repoName: "formation-spring-boot-1",
 
     context: `
-        Bla bla bla
-    `
+Ce support est utilisé dans le cadre d'un cursus de formation sur Spring.
+Les stagiaires ont idéalement déjà acquis des connaissances sur Spring Framework (Core, Beans, Context, ORM, JDBC, MVC, TX) et Spring Data Jpa.    `
 };
 
 module.exports = CONFIG;
