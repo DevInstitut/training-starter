@@ -1,0 +1,19 @@
+{
+  "title": "____TITRE_FORMATION___",
+  "author": "Rossi Oddet",
+  "plugins": [
+    "auto-summary",
+    "github-edit"
+  ],
+  "ignores": [
+    "_book",
+    "node_modules",
+    "sources"
+  ],
+  "pluginsConfig": {
+    "github-edit": {
+      "repo": "____REPO___",
+      "branch": "master"
+    }
+  }
+}
