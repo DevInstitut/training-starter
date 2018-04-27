@@ -18,7 +18,7 @@ const push = (config) => {
 
     lg(`** Copie des sources de l'archetype vers ${repoDir}`);
 
-    sh.cp('-aR', `archetype/*`, repoDir);
+    sh.cp('-R', `archetype/.`, repoDir);
 
     lg('** Mise à jour du projet');
 
