@@ -8,7 +8,7 @@ const push = (config) => {
 
     const PUSH_URL = `git@github.com:${config.repoUser}/${config.repoName}`
 
-    lg(`** Génération archetype ${archetypeName} pour le dépôt ${config.repoUser}/${config.repoName}` );
+    lg(`** Génération archetype pour le dépôt ${config.repoUser}/${config.repoName}` );
 
     sh.rm('-rf', REPO_TEMP_DIR);
 
