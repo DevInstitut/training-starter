@@ -48,7 +48,7 @@ const push = (config) => {
 
     replace({
         regex: "____REPO___",
-        replacement: repoName,
+        replacement: config.repoName,
         paths: [`${repoDir}/README.md`],
         recursive: true,
         silent: true,
