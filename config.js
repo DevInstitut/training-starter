@@ -7,7 +7,7 @@ const CONFIG = {
     repoUser: "DevInstitut",
 
     // Nom du dépôt dans l'organisation Github
-    repoName: "formation-y",
+    repoName: "formation-z",
 
     context: `
         Bla bla bla
