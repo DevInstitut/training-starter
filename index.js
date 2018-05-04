@@ -13,7 +13,7 @@ const genRepos = (gh, githubUser, repoName) => {
 };
 
 
-const promise$ = genRepos(gh, cfg.githubOrga, cfg.repositoryName)
+const promise$ = genRepos(gh, cfg.repoUser, cfg.repoName)
     .then ((data) => {
         console.log(data);
         require('./archetypes').push(cfg);

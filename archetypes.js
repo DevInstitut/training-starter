@@ -8,7 +8,7 @@ const push = (config) => {
 
     const PUSH_URL = `git@github.com:${config.repoUser}/${config.repoName}`
 
-    lg(`** Génération archetype ${archetypeName} pour le dépôt ${config.repoUser}/${config.repoName}` );
+    lg(`** Génération archetype pour le dépôt ${config.repoUser}/${config.repoName}` );
 
     sh.rm('-rf', REPO_TEMP_DIR);
 
@@ -18,7 +18,7 @@ const push = (config) => {
 
     lg(`** Copie des sources de l'archetype vers ${repoDir}`);
 
-    sh.cp('-R', `archetype/*`, repoDir);
+    sh.cp('-R', `archetype/.`, repoDir);
 
     lg('** Mise à jour du projet');
 
@@ -48,7 +48,7 @@ const push = (config) => {
 
     replace({
         regex: "____REPO___",
-        replacement: repoName,
+        replacement: config.repoName,
         paths: [`${repoDir}/README.md`],
         recursive: true,
         silent: true,
