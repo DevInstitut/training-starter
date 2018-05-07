@@ -1,13 +1,13 @@
 const CONFIG = {
 
     // Titre
-    title: "Formation Spring Context",
+    title: "Formation Spring Data",
 
     // Nom de l'organisation
     repoUser: "DevInstitut",
 
     // Nom du dépôt dans l'organisation Github
-    repoName: "formation-spring-context",
+    repoName: "formation-spring-data",
 
     context: `
 Ce cours est donné dans le cadre d'un cursus de 60 jours visant à donner aux stagiaires la double compétence Spring / Angular.
