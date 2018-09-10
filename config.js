@@ -7,7 +7,7 @@ const CONFIG = {
     repoUser: "DevInstitut",
 
     // Nom du dépôt dans l'organisation Github
-    repoName: "angular-07-2018",
+    repoName: "angular-09-2018",
 
     context: `
 Ce cours est donné dans le cadre d'un cursus de 60 jours visant à donner aux stagiaires la double compétence Spring / Angular.
